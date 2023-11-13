@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: PixelMplus10;
+    margin: 0 0 0 0;
+    height: 100%;
+    text-align: center;
+    background-image: url(../images/sogen.png);
+  }
+
+.box{
+    margin: 30px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(225, 235, 220);
+  }
+
+.gbutton {
+    width: 200px;
+}

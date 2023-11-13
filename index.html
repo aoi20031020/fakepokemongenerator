@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Fake_pokemon_generator</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <h1><a href="https://fontmeme.com/ja/font-pixel-style/"><img src="https://fontmeme.com/permalink/230722/ce888e185b6d444e90074a028c07ce18.png" alt="font-pixel-style" border="0"></a></h1>
+    </head>
+    
+    <body>
+        <div class="api">
+            <label>apikey</label>
+            <input type="password" id="api_text">
+        </div>
+        <div class="box">
+            <textarea id="request_text" cols="32" rows="1"></textarea>
+            <br>
+            <textarea id="response_text" cols="32" rows="8" disabled></textarea>
+        </div>
+        <br>
+        <input type="image" onClick="reply()" src="images/pokemon-gf37c97d58_640.png" value="get!" class="gbutton" />
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+        <script src="js/gpt.js"></script>
+    </body>
+</html>
